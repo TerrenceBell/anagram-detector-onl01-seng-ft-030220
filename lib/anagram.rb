@@ -4,6 +4,8 @@ class Anagram
   
   def initialize(word)
     @word = word 
-  def self.match(words)
+  def self.match(word_array)
+    word_array.select do |element|
+      
   end
 end 
